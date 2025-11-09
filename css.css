@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 78, 180, 0.953);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    
+}
+
+a {
+    color: white;
+    /* padding:50px; */
+    text-decoration: none;
+    /* padding-bottom: 30px; */
+    margin: 15px;
+}
+
+.photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+#About {
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    background-color: rgba(0, 78, 180, 0.953);
+    border: solid rgba(0, 78, 180, 0.953);
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 40px auto;
+    border: solid rgb(46, 103, 249);
+}
+
+.tablepadding {
+    padding: 5px 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.projectBox {
+    background: #fff;
+    /* margin: 0 auto; */
+    padding: 10px 150px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.centerContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 78, 180, 0.953);
+}
+
+.contact-form tr {
+    border-bottom: 2px solid rgba(0, 78, 180, 0.953); 
+}
+
+.contact-form tr:last-child {
+    border-bottom: none;
+}
+
+.contact-form td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.label-cell {
+    width: 30%; 
+    font-weight: normal;
+    text-align: right;
+    border-right: 1px solid #4a86e8; 
+    font-size: 14px;
+}
+
+.input-cell {
+    width: 70%;
+}
+
+.input-cell input, 
+.input-cell textarea {
+    width: 95%; 
+    padding: 8px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-size: 14px;
+}
+
+/* .input-cell textarea {
+    height: 60px; 
+    resize: vertical; 
+} */
+
+.button-cell {
+    text-align: center;
+}
+
+.button-cell button {
+    background-color: rgba(0, 78, 180, 0.953); 
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0; 
+}
+
+footer{
+    a{
+        color: white;
+    }
+    background-color: rgba(0, 78, 180, 0.953);
+    color: white;
+}
+
+#content{
+    position: relative;
+}
+
+.backbutton{
+    background-color:#004aad;
+    color:white;
+    border: none;
+    padding:8px 30px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    border-radius: 8px;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin-top: 40px;
+}
+
+#topButton{
+    text-decoration: none;
+}
